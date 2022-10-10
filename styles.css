@@ -131,6 +131,10 @@
 .oscura { 
     filter: brightness(50%);
 }
+.clara { 
+    filter: brightness(70%);
+}
+
 .ultimafila {
     background-color:darkslateblue;
     color: white;

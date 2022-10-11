@@ -139,33 +139,3 @@
     background-color:darkslateblue;
     color: white;
 }
-*{
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-nav div ul li a {
-    color: black;
-}
-nav div ul li a:hover {
-    color:#efb810;
-}
-.salida {
-    heigh:665px;
-    background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");
-    background-repeat: repeat-y;
-    background-size: 10rem;
-  }
-  .header {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
-    font-size: 35px;
-    color: #36A0FF;
-}

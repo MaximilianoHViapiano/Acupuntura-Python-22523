@@ -11,47 +11,9 @@
     
     <title>Formulario de contacto</title>
     <!-- AGREGAR ICONOS DE REDES SOCIALES Y SU PROPIO STYLE-->
+    <link rel="stylesheet" href="styles.css">  
     <link rel="stylesheet" href=
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      
-        <style>
-            .fa:hover {
-                opacity: 0.9;
-            }
-      
-            .fa-linkedin {
-                background: #007bb5;
-                color: white;
-            }
-      
-            .fa-facebook {
-                background: #cb2027;
-                color: white;
-            }
-      
-            .fa-reddit {
-                background: #ff5700;
-                color: white;
-            }
-
-            .fa-twitter {
-                background:chartreuse;
-                color: white;
-            }
-
-            .fa {
-                padding: 10px;
-                font-size: 20px;
-                width: 40px;
-                text-decoration: none;
-                margin: 5px 80px;
-            }
-      
-            h1 {
-                color: green;
-            }
-        </style>
-
     <!-- Cargar el CSS de Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
 </head>
@@ -60,6 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <div class="row align-items-center">
+                  
                     <div class="col-4"> 
                         <img src="imagenes/codoacodo.png" class="img-fluid"> 
                     </div> 
@@ -73,6 +36,66 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="home.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Especialidades
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Cardiología</a></li>
+                        <li><a class="dropdown-item" href="#">Clinica Médica</a></li>
+                        <li><a class="dropdown-item" href="#">Dermatología</a></li>
+                        <li><a class="dropdown-item" href="#">Endocrinología</a></li>
+                        <li><a class="dropdown-item" href="#">Gastroenterología</a></li>
+                        <li><a class="dropdown-item" href="#">Ginecología</a></li>
+                        <li><a class="dropdown-item" href="#">Neumonología</a></li>
+                        <li><a class="dropdown-item" href="#">Nutrición</a></li>
+                        <li><a class="dropdown-item" href="#">Oncologia</a></li>
+                        <li><a class="dropdown-item" href="#">Otorrinolaringología</a></li>
+                        <li><a class="dropdown-item" href="#">Patología Mamaria</a></li>
+                        <li><a class="dropdown-item" href="#">Pediatría</a></li>
+                        <li><a class="dropdown-item" href="#">Psico-Oncología</a></li>
+                        <li><a class="dropdown-item" href="#">Urología</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Masajes Vital</a></li>
+                        <li><a class="dropdown-item" href="#">Corporal Deportivo</a></li>
+                        <li><a class="dropdown-item" href="#">Auriculoterapia</a></li>
+                        <li><a class="dropdown-item" href="#">Acupuntura</a></li>
+                        <li><a class="dropdown-item" href="#">Fisioterapia</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Estudios
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Biopsias</a></li>
+                        <li><a class="dropdown-item" href="#">Colposcopia</a></li>
+                        <li><a class="dropdown-item" href="#">Ecocardiograma</a></li>
+                        <li><a class="dropdown-item" href="#">Ecodoppler</a></li>
+                        <li><a class="dropdown-item" href="#">Ecografia de grandes vasos</a></li>
+                        <li><a class="dropdown-item" href="#">Ecografia general</a></li>
+                        <li><a class="dropdown-item" href="#">Ecografia Mamaria</a></li>
+                        <li><a class="dropdown-item" href="#">Electrocardiograma</a></li>
+                        <li><a class="dropdown-item" href="#">Histeroscopia</a></li>
+                        <li><a class="dropdown-item" href="#">Laboratorio</a></li>
+                        <li><a class="dropdown-item" href="#">Mamografia</a></li>
+                        <li><a class="dropdown-item" href="#">Otomicroscopia</a></li>
+                        <li><a class="dropdown-item" href="#">Papanicolau</a></li>
+                        <li><a class="dropdown-item" href="#">Riesgo Quirurgico</a></li>
+                        <li><a class="dropdown-item" href="#">Rinolaringoscopia</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        APIS
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="api.html">API-FILMS</a></li>
+                        <li><a class="dropdown-item" href="api2.html">API-POKEMON</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="somos.html">Quienes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link concolor" href="contacto.html">Contacto</a></li>
                 </ul>                
               </div>
             </div>

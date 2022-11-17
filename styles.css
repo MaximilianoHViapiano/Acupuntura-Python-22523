@@ -5,7 +5,7 @@
 } 
 .contenedor {
     width: 100%;
-    display:inline-flex;
+    display:flex;
     align-items: center;
  }
 #carrusel-caja {
